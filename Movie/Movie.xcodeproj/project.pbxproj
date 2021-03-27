@@ -61,6 +61,7 @@
 		0D789A6C260FF05C00E45352 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		0D789A71260FF07000E45352 /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		0D789A72260FF07000E45352 /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		0D789A7C260FF16600E45352 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 		353EAEF3B9AC871825B02CFB /* Pods_MovieTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MovieTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		45C5ABE2281051531A9DFA84 /* Pods_Movie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Movie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		756B4BFB1DA8053F815A334A /* Pods-MovieTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieTests.release.xcconfig"; path = "Target Support Files/Pods-MovieTests/Pods-MovieTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -133,6 +134,7 @@
 				0D255777260FEAAF00629BCA /* LaunchScreen.storyboard */,
 				0D25577A260FEAAF00629BCA /* Info.plist */,
 				0D255774260FEAAF00629BCA /* Preview Content */,
+				0D789A7C260FF16600E45352 /* Release.xcconfig */,
 			);
 			path = Movie;
 			sourceTree = "<group>";
@@ -496,6 +498,7 @@
 /* Begin XCBuildConfiguration section */
 		0D255791260FEAAF00629BCA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D789A7C260FF16600E45352 /* Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
@@ -558,6 +561,7 @@
 		};
 		0D255792260FEAAF00629BCA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D789A7C260FF16600E45352 /* Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;

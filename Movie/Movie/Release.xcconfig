@@ -1,0 +1,13 @@
+//
+//  Release.xcconfig
+//  Movie
+//
+//  Created by Javier Susa on 27/03/21.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+API_MAIN_URL = https:\/\/api.themoviedb.org/3/
+API_KEY = d3ace8ee403bfd34c1f542cb5f55546c
+API_IMAGE_URL = https:\/\/image.tmdb.org/t/p/
