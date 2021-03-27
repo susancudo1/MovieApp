@@ -5,3 +5,7 @@
   Created by Javier Susa on 27/03/21.
   
 */
+
+//SearchBarView
+"search_bar_view_placeholder_input_search" = "Search ...";
+"search_bar_view_cancel_button" = "Cancel";
