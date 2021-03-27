@@ -5,3 +5,9 @@
   Created by Javier Susa on 27/03/21.
   
 */
+
+"title_app" = "Peliculas";
+
+//SearchBarView
+"search_bar_view_placeholder_input_search" = "Buscar ...";
+"search_bar_view_cancel_button" = "Cancelar";
