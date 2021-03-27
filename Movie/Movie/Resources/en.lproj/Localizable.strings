@@ -11,3 +11,10 @@
 //SearchBarView
 "search_bar_view_placeholder_input_search" = "Search ...";
 "search_bar_view_cancel_button" = "Cancel";
+
+//DetailView
+"detail_view_title_description" = "DESCRIPTION";
+"detail_view_title_original_language" = "ORIGINAL LANGUAGE";
+"detail_view_title_original_title" = "ORIGINAL TITLE";
+"detail_view_title_popularity" = "POPULARITY";
+"detail_view_title_vote_average" = "VOTE AVERAGE";
