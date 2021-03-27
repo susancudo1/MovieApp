@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct MovieListView: View {
-
+    var viewModel = MovieListViewModel()
     @State private var searchText = ""
     @State private var resultModel: ResultModel?
     var body: some View {
@@ -24,12 +24,21 @@ struct MovieListView: View {
                         ZStack {
                             CellMovieView(title: movie.title,
                                           imageData: movie.imageData)
+                            
                         }
                     }
                 }
                 Spacer()
             }
             .navigationBarTitle("title_app".localized, displayMode: .inline)
+        }
+        .onAppear {
+            self.viewModel.search { (movieModel) in
+                guard let movieModel = movieModel else {
+                    return
+                }
+                self.resultModel = movieModel
+            }
         }
     }
 }
