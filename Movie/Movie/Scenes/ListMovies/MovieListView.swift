@@ -24,7 +24,9 @@ struct MovieListView: View {
                         ZStack {
                             CellMovieView(title: movie.title,
                                           imageData: movie.imageData)
-                            
+                            NavigationLink(destination: MovieDetailView(movie: movie)) {
+                                EmptyView()
+                            }
                         }
                     }
                 }
